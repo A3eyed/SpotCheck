@@ -11,14 +11,14 @@
     "privacy": "public",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.abdallahfuseini.spotcheck"
+      "bundleIdentifier": "com.spotcheck"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.abdallahfuseini.spotcheck"
+      "package": "com.spotcheck"
     },
     "plugins": [
       ["expo-router", { "sitemap": false }],
