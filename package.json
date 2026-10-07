@@ -1,0 +1,15 @@
+{
+  "name": "spotcheck",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Abdallah Fuseini",
+  "description": "SpotCheck – Ghana rental & hospitality marketplace. Mobile app for iOS and Android. Developed by Abdallah Fuseini.",
+  "license": "MIT",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  }
+}

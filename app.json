@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "SpotCheck",
+    "slug": "spotcheck-ghana",
+    "description": "Ghana's trusted rental and hospitality marketplace. Developed by Abdallah Fuseini.",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "privacy": "public",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abdallahfuseini.spotcheck"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.abdallahfuseini.spotcheck"
+    },
+    "plugins": [
+      ["expo-router", { "sitemap": false }],
+      "expo-font",
+      "expo-secure-store",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
